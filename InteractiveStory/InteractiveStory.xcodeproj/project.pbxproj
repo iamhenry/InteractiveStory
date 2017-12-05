@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BA1CA5B21FD70E7D0020900B /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1CA5B11FD70E7D0020900B /* Story.swift */; };
+		BA1CA5B41FD711830020900B /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1CA5B31FD711830020900B /* Page.swift */; };
 		BA59005F1FD6688E00AC0261 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA59005E1FD6688E00AC0261 /* AppDelegate.swift */; };
 		BA5900611FD6688E00AC0261 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5900601FD6688E00AC0261 /* ViewController.swift */; };
 		BA5900641FD6688E00AC0261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5900621FD6688E00AC0261 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		BA1CA5B11FD70E7D0020900B /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		BA1CA5B31FD711830020900B /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		BA59005B1FD6688E00AC0261 /* InteractiveStory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractiveStory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA59005E1FD6688E00AC0261 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA5900601FD6688E00AC0261 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				BA59005E1FD6688E00AC0261 /* AppDelegate.swift */,
+				BA1CA5B31FD711830020900B /* Page.swift */,
 				BA5900601FD6688E00AC0261 /* ViewController.swift */,
 				BA1CA5B11FD70E7D0020900B /* Story.swift */,
 				BA5900621FD6688E00AC0261 /* Main.storyboard */,
@@ -141,6 +144,7 @@
 			files = (
 				BA5900611FD6688E00AC0261 /* ViewController.swift in Sources */,
 				BA59005F1FD6688E00AC0261 /* AppDelegate.swift in Sources */,
+				BA1CA5B41FD711830020900B /* Page.swift in Sources */,
 				BA1CA5B21FD70E7D0020900B /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
