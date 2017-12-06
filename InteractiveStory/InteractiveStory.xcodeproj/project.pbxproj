@@ -14,6 +14,7 @@
 		BA5900641FD6688E00AC0261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5900621FD6688E00AC0261 /* Main.storyboard */; };
 		BA5900661FD6688E00AC0261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5900651FD6688E00AC0261 /* Assets.xcassets */; };
 		BA5900691FD6688E00AC0261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5900671FD6688E00AC0261 /* LaunchScreen.storyboard */; };
+		BADDF02C1FD889CB0055C341 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADDF02B1FD889CB0055C341 /* PageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BA5900651FD6688E00AC0261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA5900681FD6688E00AC0261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA59006A1FD6688E00AC0261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BADDF02B1FD889CB0055C341 /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				BA59005E1FD6688E00AC0261 /* AppDelegate.swift */,
 				BA1CA5B31FD711830020900B /* Page.swift */,
 				BA5900601FD6688E00AC0261 /* ViewController.swift */,
+				BADDF02B1FD889CB0055C341 /* PageController.swift */,
 				BA1CA5B11FD70E7D0020900B /* Story.swift */,
 				BA5900621FD6688E00AC0261 /* Main.storyboard */,
 				BA5900651FD6688E00AC0261 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 				BA59005F1FD6688E00AC0261 /* AppDelegate.swift in Sources */,
 				BA1CA5B41FD711830020900B /* Page.swift in Sources */,
 				BA1CA5B21FD70E7D0020900B /* Story.swift in Sources */,
+				BADDF02C1FD889CB0055C341 /* PageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
