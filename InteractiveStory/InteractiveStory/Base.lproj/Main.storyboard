@@ -28,7 +28,7 @@
                                 <rect key="frame" x="116" y="589" width="143" height="30"/>
                                 <state key="normal" title="Start Your Adventure"/>
                                 <connections>
-                                    <segue destination="jU4-SM-YB0" kind="show" id="KjX-Ec-CBf"/>
+                                    <segue destination="jU4-SM-YB0" kind="show" identifier="startAdventure" id="KjX-Ec-CBf"/>
                                 </connections>
                             </button>
                         </subviews>
