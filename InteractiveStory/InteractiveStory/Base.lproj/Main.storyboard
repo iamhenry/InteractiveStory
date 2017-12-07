@@ -37,6 +37,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="S0e-bd-q08"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -56,6 +59,7 @@
                     <navigationItem key="navigationItem" id="Q30-iT-KDj"/>
                     <connections>
                         <outlet property="nameTextField" destination="tWR-sy-qz0" id="Hid-z2-kXO"/>
+                        <outlet property="textFieldBottomConstraint" destination="qH3-on-NOf" id="1oZ-D9-1g8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

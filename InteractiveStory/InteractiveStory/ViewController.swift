@@ -11,10 +11,12 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var textFieldBottomConstraint: NSLayoutConstraint!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(ViewController.keyboardWillShow(_:)), name: Notification.Name.UIKeyboardWillShow, object: nil)
     }
 
     override func didReceiveMemoryWarning() {
@@ -49,5 +51,57 @@ class ViewController: UIViewController {
         }
     }
     
+    func keyboardWillShow(_ notification: Notification) {
+        if let info = notification.userInfo, let keyboardFrame = info[UIKeyboardFrameEndUserInfoKey] as? NSValue {
+            let frame = keyboardFrame.cgRectValue
+            textFieldBottomConstraint.constant = frame.size.height + 10
+            
+            UIView.animate(withDuration: 0.8) {
+                self.view.layoutIfNeeded()
+            }
+        }
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
+    
 }
+
+extension ViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
+        textField.resignFirstResponder()
+        
+        return true
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
